@@ -1,3 +1,4 @@
+---
 # Site
 name: 'Work of the Word'
 description: 'Mundana is a free Jekyll theme for awesome people like you, Medium like.'
@@ -36,30 +37,26 @@ authors:
       twitter:        https://twitter.com/wowthemesnet
  
 # Defaults
+title: Work of the Word
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+>>>>>>> 9e48a6a41349fd658b1afc8508cccc3299521cee
 defaults:
-
-  # all posts
-  - scope:
-      path: "_posts"
-    values:
-      layout: post
-      author: sal
-      avatar: /assets/images/avatar1.jpg
-      
-  # all pages
-  - scope:
-      path: "_pages"
-    values:
-      layout: page
-      
-# Syntax
-markdown: kramdown
-highlighter: rouge
-
-# Paginate
-paginate: 10
-
-
-
-# Exclude metadata and development time dependencies (like Grunt plugins)
-exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    permalink: "/posts/:title/"
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+permalink: pretty
