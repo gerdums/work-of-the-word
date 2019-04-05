@@ -1,6 +1,6 @@
 ---
 title: About
-permalink: "/about.html"
+permalink: "/about/"
 layout: page-sidebar
 image: "/assets/images/screenshot.jpg"
 comments: true
