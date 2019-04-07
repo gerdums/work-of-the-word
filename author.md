@@ -1,6 +1,6 @@
 ---
-title: Jane
-permalink: "/author-jane/"
+title: About Brandon
+permalink: "/author/"
 layout: default
 ---
 
@@ -11,13 +11,13 @@ layout: default
             <div class="col-md-9">
                 <h2 class="font-weight-bold">{{page.title}} <span class="small btn btn-outline-success btn-sm btn-round"><a href="{{ site.authors.jane.twitter }}">Follow</a></span></h2>
                 <p><a href="{{ site.authors.jane.site }}">{{ site.authors.jane.site }}</a></p>
-                <p class="excerpt">{{ site.authors.jane.bio }}</p>
+                <p class="excerpt">Hello there again second</p>
             </div>
             <div class="col-md-3 text-right">
                 <img alt="{{ site.authors.jane.name }}" src="{{site.baseurl}}/{{ site.authors.jane.avatar }}" class="rounded-circle" height="100" width="100">
             </div>
         </div>
-        <h4 class="font-weight-bold spanborder"><span>Posts by {{page.title}}</span></h4>
+        <h4 class="font-weight-bold spanborder"><span>Posts by Brandon</span></h4>
             {% assign posts = site.posts | where:"author","jane" %}
             {% for post in posts %}
             {% include main-loop-card.html %}

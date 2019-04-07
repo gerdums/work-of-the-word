@@ -1,5 +1,6 @@
 ---
 title: Work of the Word
+name: Work of the Word
 timezone: UTC
 collections:
   posts:
@@ -14,10 +15,16 @@ defaults:
     type: posts
   values:
     layout: post
-    permalink: "/posts/:title/"
+    permalink: "/:title/"
 - scope:
     path: ''
     type: pages
   values:
     layout: page
+- scope:
+    path: ""
+    type: "posts"
+  values:
+    layout: "default"
+    author: "Brandon"
 permalink: pretty
