@@ -1,8 +1,11 @@
 ---
 title: Work of the Word
+<<<<<<< HEAD
 name: Work of the Word
 author:
   - name: Brandon Wenk
+=======
+>>>>>>> 94bcf9e2482938e27e9ccbf9f8c39e3087c19b3c
 timezone: UTC
 collections:
   posts:
@@ -24,9 +27,10 @@ defaults:
   values:
     layout: page
 - scope:
-    path: ""
-    type: "posts"
+    path: ''
+    type: posts
   values:
-    layout: "default"
-    author: "Brandon"
+    layout: default
+    author: Brandon
+name: Work of the Word
 permalink: pretty
