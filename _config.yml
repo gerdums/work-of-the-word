@@ -1,11 +1,8 @@
 ---
 title: Work of the Word
-<<<<<<< HEAD
 name: Work of the Word
 author:
-  - name: Brandon Wenk
-=======
->>>>>>> 94bcf9e2482938e27e9ccbf9f8c39e3087c19b3c
+  name: Brandon Wenk
 timezone: UTC
 collections:
   posts:
