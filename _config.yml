@@ -1,6 +1,8 @@
 ---
 title: Work of the Word
 name: Work of the Word
+author:
+  - name: Brandon Wenk
 timezone: UTC
 collections:
   posts:
