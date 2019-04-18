@@ -4,24 +4,8 @@ permalink: "/author/"
 layout: default
 ---
 
-<div class="container">
-<div class="row justify-content-center">
-    <div class="col-md-8">        
-        <div class="row align-items-center mb-5">
-            <div class="col-md-9">
-                <h2 class="font-weight-bold">{{page.title}} <span class="small btn btn-outline-success btn-sm btn-round"><a href="{{ site.authors.jane.twitter }}">Follow</a></span></h2>
-                <p><a href="{{ site.authors.jane.site }}">{{ site.authors.jane.site }}</a></p>
-                <p class="excerpt">Hello there again second</p>
-            </div>
-            <div class="col-md-3 text-right">
-                <img alt="{{ site.authors.jane.name }}" src="{{site.baseurl}}/{{ site.authors.jane.avatar }}" class="rounded-circle" height="100" width="100">
-            </div>
-        </div>
-        <h4 class="font-weight-bold spanborder"><span>Posts by Brandon</span></h4>
-            {% assign posts = site.posts | where:"author","jane" %}
-            {% for post in posts %}
-            {% include main-loop-card.html %}
-            {% endfor %}
-    </div>
-</div>
-</div>
+Hello Everyone!
+
+My name is Brandon Wenk. I am a student at the Master's University. I started this blog with three goals in mind. 1. To glorify God. 2. To learn to love God more through a deep study of His Word that others may grow in loving Him. 3. To go through the entirety of Scripture with the purpose of seeing the connections of why the texts says what it does in each section and how that contributes to knowing God more through a greater understanding of Him and His work!
+
+I pray you all may be benefited, be conformed further to the image of Christ, grow in loving the Lord your God with all of your heart, soul, mind, and strength and your neighbor as yourself!
