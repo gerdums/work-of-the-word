@@ -1,7 +1,7 @@
 ---
 title: About
 permalink: "/about/"
-image: "/assets/images/screenshot.jpg"
+image: "/uploads/The%20Cross%20of%20Christ.JPG"
 comments: true
 layout: page-sidebar
 ---
