@@ -1,5 +1,5 @@
 ---
-title: Powerful things you can do with the Markdown editor
+title: Who Did Jacob Wrestle In Genesis 32?
 date: 2019-05-25 13:16:00 Z
 categories:
 - Bible
